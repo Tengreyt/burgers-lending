@@ -107,15 +107,8 @@ body {
     color: #FFF;
     text-decoration: none;
     cursor: pointer;
-    transition: .1s linear;
-    border-radius: 1x;
+    border-radius: 1px;
 }
-
-.menu-item a:hover {
-    border-bottom: 2px solid #ca6a32;
-
-}
-
 .currency {
     border-radius: 5px;
     border: 1px solid #FFF;
