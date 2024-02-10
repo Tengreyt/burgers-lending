@@ -241,8 +241,7 @@ body {
 }
 
 .products-item-image {
-    height: 250px;
-
+    min-height: 250px;
 }
 
 .products-item-image img {
@@ -342,7 +341,7 @@ body {
 }
 
 .order-form-input {
-    background: linear-gradient(95.61deg, #DA8023 0%, #E2B438 100%);
+    border: 1px solid  #DA8023 ;
     width: 344px;
     height: 62px;
     border-radius: 8px;

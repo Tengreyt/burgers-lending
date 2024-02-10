@@ -42,6 +42,10 @@
         letter-spacing: 1.92px;
         text-transform: uppercase;
     }
+    /* why */
+    .why{
+        padding-bottom: 100px;
+    }
     .why-items {
         display: flex;
         flex-direction: column;
@@ -50,6 +54,91 @@
         margin-top: 60px;
         gap: 100px;
         justify-content: center;
+    }
+    /* section - products */
+    .products{
+        padding-bottom: 100px;
+    }
+
+
+    /* products-item card */
+    .products-item{
+        max-width: 245px;
+        min-height: 300px;
+    }
+    .products-item-image{
+        min-height: 200px;
+    }
+    /*  section - order */
+    .order  {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 100px;
+    }
+    .order-image {
+        max-width: 580px;
+        min-height: 580px;
+        top: 0;
+        right: calc(100% - 364px);
+    }
+    /*===============  */
+    .order-form {
+        display: flex;
+        flex-direction: column;
+        border-radius: 16px;
+        border: 1px solid #353535;
+        background: #211A16;
+        margin-top: 340px;
+        max-width: 320px;
+        padding: 10px 12px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .order-form-text {
+        font-size: 18px;
+        line-height: 29px;
+        text-align: center;
+    }
     
+    .order-form-inputs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    
+    .order-form-input {
+        border: 1px solid linear-gradient(95.61deg, #DA8023 0%, #E2B438 100%);
+        width: 260px;
+        height: 62px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .order-form-input input {
+        padding: 20px 10px;
+        max-width: 260px;
+        background: #211A16;
+        border-radius: 8px;
+        box-sizing: border-box;
+        outline: none;
+        border: 1px solid transparent;
+        color: white;
+        transition: all .2s ease-in-out;
+    }
+    .order-form-input input:focus{
+        box-shadow: 0px 1px 55px 1px rgba(	218,128,35, 0.60);
+    }
+    
+    .order-form-inputs .button {
+        max-width: 250px;
+    }
+    /* footer */
+    .rights{
+        max-width: 120px;
     }
 }
