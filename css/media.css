@@ -248,11 +248,10 @@
         border-radius: 16px;
         border: 1px solid #353535;
         background: #211A16;
-        margin-top: 340px;
-        max-width: 320px;
+        max-width: 360px;
         padding: 10px 12px;
-        margin-left: 50px;
-        margin-right: 50px;
+        margin:  340px auto 0 auto;
+        
     }
     .order-form-text {
         font-size: 18px;
@@ -402,11 +401,10 @@
         border-radius: 16px;
         border: 1px solid #353535;
         background: #211A16;
-        margin-top: 340px;
-        max-width: 360px;
+        max-width: 340px;
+        margin:  340px auto 0 auto;
         padding: 10px 12px;
-        margin-left: 20px;
-        margin-right: 20px;
+        
     }
     .order-form-text {
         font-size: 18px;
