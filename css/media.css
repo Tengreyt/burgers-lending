@@ -268,8 +268,8 @@
     }
     
     .order-form-input {
-        border: 1px solid linear-gradient(95.61deg, #DA8023 0%, #E2B438 100%);
-        max-width: 285px;
+        max-width: 260px;
+        margin:  0 auto;
         height: 62px;
         border-radius: 8px;
         margin-bottom: 20px;
@@ -294,7 +294,8 @@
     }
     
     .order-form-inputs .button {
-        max-width: 285px;
+        max-width: 260px;
+        margin:  0 auto;
     }
     /* footer */
     .rights{
@@ -421,8 +422,8 @@
     }
     
     .order-form-input {
-        border: 1px solid linear-gradient(95.61deg, #DA8023 0%, #E2B438 100%);
         max-width: 290px;
+        margin:  0 auto;
         height: 62px;
         border-radius: 8px;
         margin-bottom: 20px;
